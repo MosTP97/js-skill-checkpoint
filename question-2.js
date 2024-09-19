@@ -8,3 +8,8 @@ const userTaskList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+userTaskList.splice(4,0,{id: 5, task: "Walk the dog" })
+userTaskList.splice(3,1,{id: 4, task: "Go to the gym"})
+userTaskList.splice(userTaskList.length-1)
+
+console.log(userTaskList[userTaskList.length-1])
